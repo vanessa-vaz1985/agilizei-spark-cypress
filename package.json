@@ -1,0 +1,16 @@
+{
+  "name": "agilizei-spark-cypress",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido através do Treinamento Gratuito de Cypress, \"Agilizei Spark\", ministrado pelo Samuel. A playlist pode ser acessada em https://www.youtube.com/watch?v=oqR2qySVVS8&list=PLnUo-Rbc3jjztMO4K8b-px4NE-630VNKY&index=4. Durante este projeto, utilizei uma máquina com Windows 11, e todas as instalações/execuções foram feitas com o WSL 2, permitindo utilizar o Ubuntu 22.04 no próprio Windows.",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run:mobile": "npx cypress run --config viewportWidth=411,viewportHeight=823",
+    "cypress:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.7.0"
+  }
+}
